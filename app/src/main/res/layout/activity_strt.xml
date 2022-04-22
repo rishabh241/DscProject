@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".strt_activity"
+    android:orientation="vertical"
+    android:background="@drawable/pelete"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+<!--        <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/bgimp"-->
+<!--            android:id="@+id/ImageView" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tile Game"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="1.Find the given number = 7 to\n   win.\n2.You have only 3 chance to flip\n   card.\n3.After every reveal you loose a\n   chance. "
+            android:textColor="@color/chatbackground"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="5dp"/>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="fun"
+            android:text="Play"
+            app:icon="@android:drawable/ic_media_play"
+            app:backgroundTint="@color/status_background"
+            app:cornerRadius="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
